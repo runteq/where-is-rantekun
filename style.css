@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+#top-page {
+    display: block;
+}
+#game-container {
+    display: none;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.game-image {
+    width: 160px;
+    height: 240px;
+    margin: 10px;
+    cursor: pointer;
+}
+#top-image {
+    max-width: 60%;
+}
+#start-button {
+    margin-top: 20px;
+}
+#correct-image, .modal-image {
+    width: 80px;
+    height: 120px;
+    margin: 10px auto;
+}
+#top-score {
+    margin-top: 20px;
+}
+.btn-orange-moon {
+    background: #2df8a4;
+    background: -webkit-linear-gradient(to right, #40ceb6, #34e67ebd);
+    background: linear-gradient(to right, #33f7d6, #41d684);
+    color: #fff;
+    border: 3px solid #eee;
+}
+.btn-rounded {
+    border-radius: 35px;
+}
+.header-container {
+    display: flex;
+}
+.navbar {
+    background-color: #02e7d4; /* ナビゲーションバーの背景色 */
+}
+.navbar-dark .navbar-brand {
+    color: #ffffff; /* ナビゲーションバーのテキストカラー */
+}
+.navbar-dark .navbar-brand:hover {
+    color: #fff; /* ナビゲーションバーのテキストカラー（ホバー時） */
+}
+.game-context {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.footer {
+    background-color: #333; /* フッターの背景色 */
+    color: #fff; /* フッターのテキストカラー */
+    text-align: center;
+    padding: 10px 0;
+}
